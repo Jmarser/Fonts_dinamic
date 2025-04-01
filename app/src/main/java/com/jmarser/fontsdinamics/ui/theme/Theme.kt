@@ -50,9 +50,11 @@ fun FontsDinamicsTheme(
         else -> LightColorScheme
     }
 
+    val typography = dynamicTypography()
+
     MaterialTheme(
         colorScheme = colorScheme,
-        typography = Typography,
+        typography = typography,
         content = content
     )
 }
